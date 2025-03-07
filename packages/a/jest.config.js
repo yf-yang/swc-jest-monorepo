@@ -13,6 +13,10 @@ export default {
             tsx: false,
             decorators: true,
           },
+          paths: {
+            "@/*": ["./src/*"],
+          },
+          baseUrl: ".",
           target: "es2020",
         },
       },
